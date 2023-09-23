@@ -1,0 +1,322 @@
+
+body, h1, h2, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya Tambahan untuk Warna dan Jenis Huruf */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #555454;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header img{
+    position: top,left;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #555454;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #555454;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+article {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+article h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #555454  ;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Efek Hover untuk Tautan dalam Artikel */
+article a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #555454;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+article a:hover {
+    background-color: #555454;
+    text-decoration: underline;
+    transform: scale(1.05); /* Efek perbesaran saat hover */
+}
+
+/* Gaya Tambahan untuk Header dan Footer */
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#contact p, #social-media p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    margin: 10px 0;
+}
+
+/* Gaya untuk Gambar di Artikel */
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+/* Gaya untuk Tombol Kembali ke Atas */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #515253;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+#back-to-top:hover {
+    background-color: #555454;
+}
+
+
+article a:hover {
+    background-color: #555454;
+}
+
+/* Footer */
+footer {
+    background-color: #555454;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#contact h3, #social-media h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#contact p, #social-media p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#social-media a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+#social-media a:hover {
+    color: #555454;
+}
+
+.project {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+section {
+    padding: 5rem;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none; 
+    animation: slideIn 0.5s ease forwards;
+    font-size: 20px;
+}
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Efek hover untuk tombol "Ganti Tema" */
+#changeTheme {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#changeTheme:hover {
+    background-color: #555;
+}
+
+/* Efek hover untuk tautan menu navigasi */
+nav ul li a:hover {
+    text-decoration: underline;
+    /* Efek Hover untuk Tautan Navigasi */
+nav ul li a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Gaya Tombol "Kembali ke Atas" */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#back-to-top:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+/* Gaya untuk Artikel Terbaru */
+#articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    flex: 1;
+    margin: 0 10px 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s;
+}
+
+article:hover {
+    transform: translateY(-5px);
+}
+
+/* Gaya untuk Konten Video */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+}
+}
+/* Gaya untuk Artikel */
+article {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+article h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0074D9;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Efek Hover untuk Artikel */
+article:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+/* Gaya Footer */
+footer {
+    background-color: #0074D9;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
