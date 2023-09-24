@@ -1,4 +1,8 @@
 
+section {
+    width: 90%; /* 90% dari lebar parent */
+}
+
 body, h1, h2, p, ul, li, img {
     margin: 0;
     padding: 0;
