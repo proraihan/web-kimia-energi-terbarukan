@@ -8,6 +8,62 @@
     }
 }
 
+/* ... Kode CSS sebelumnya ... */
+
+/* Tata letak kolom tunggal untuk smartphone */
+@media screen and (max-width: 768px) {
+    /* Atur lebar elemen utama menjadi 100% */
+    section {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    /* Atur lebar gambar agar sesuai dengan layar kecil */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Atur ukuran font untuk teks agar sesuai dengan layar kecil */
+    body {
+        font-size: 14px;
+    }
+
+    /* Atur padding header untuk layar kecil */
+    header {
+        padding: 0.5rem;
+    }
+
+    /* Atur ukuran tombol "Ganti Tema" agar lebih sesuai untuk layar kecil */
+    #changeTheme {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    /* Atur kotak pencarian untuk lebih sesuai dengan layar kecil */
+    #search {
+        text-align: center;
+    }
+
+    /* Atur lebar input pencarian */
+    #searchInput {
+        width: 80%;
+        padding: 8px;
+    }
+
+    /* Atur margin untuk komentar */
+    .comment {
+        margin: 10px 0;
+    }
+
+    /* Atur margin untuk tombol "Kirim Komentar" */
+    button[id^="add"] {
+        margin-top: 10px;
+    }
+}
+
+
 section {
     width: 90%; /* 90% dari lebar parent */
 }
