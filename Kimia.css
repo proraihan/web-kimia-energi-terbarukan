@@ -14,14 +14,14 @@
 @media screen and (max-width: 768px) {
     /* Atur lebar elemen utama menjadi 100% */
     section {
-        width: 100%;
+        width: 90%;
         margin: 10px 0;
         padding: 10px;
     }
 
     /* Atur lebar gambar agar sesuai dengan layar kecil */
     img {
-        max-width: 100%;
+        max-width: 75%;
         height: auto;
     }
 
