@@ -1,3 +1,12 @@
+@media screen and (max-width: 768px) {
+    /* Atur tata letak untuk layar kecil di sini */
+    header {
+        padding: 0.5rem;
+    }
+    section {
+        margin: 10px;
+    }
+}
 
 section {
     width: 90%; /* 90% dari lebar parent */
